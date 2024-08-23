@@ -1,0 +1,15 @@
+{
+  "name": "portfolio_basic",
+  "version": "1.0.0",
+  "description": "A simple portfolio project I have made that others are welcomed to use. This is a statically served project meaning it only involves html css and a little bit of javascript. Feel free to move around some of the icons  in the folders.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
+}
