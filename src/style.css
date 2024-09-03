@@ -1,0 +1,13 @@
+.img{
+    width:150px;
+    height: 150px;
+}
+.xtainer{
+    list-style: none;
+    max-height: 150px;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+}
+

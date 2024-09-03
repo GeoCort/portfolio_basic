@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/725392aa44.js" crossorigin="anonymous"></script>
     <link href="./output.css" rel="stylesheet">
     <title>George Cortes' Website</title>
 </head>
@@ -23,55 +24,57 @@
            <span class="italic text-2xl p-4">Developer for Web and Mobile</span>
         </section>
         <!-- Project overview -->
-        <section class="bg-stone-400/40  m-10 p-20 rounded-xl mb-0">
-            <h3 class="text-4xl font-bold pb-12" >Mental Monologue</h3>
+        <section class="bg-stone-400/40  m-10 mx-32 p-20 rounded-xl mb-0">
+            <h3 class="text-4xl font-bold pb-12" >My Work</h3>
             <!-- Card Container -->
-             <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5   justify-center place-items-center sm:hover:gap-9">
+             <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-7    justify-center place-items-center">
                 <!-- Card elements -->
-                 <article class="bg-stone-800 flex flex-col justify-center items-center border-2 p-6 border-stone-900 rounded-xl text-start w-[400px] shadow-lg hover:scale-110 transition-all ease-in-out">
-                    <div class=" w-[350px]">
-                        <!-- card image container added here -->
-                        <img class="w-full rounded-lg" src="/public/images/placeholder.jpeg">
+                <article class=" bg-zinc-800 rounded-xl flex flex-col w-[350px] hover:scale-110 transition-all ">
+                    <!-- Card Header -->
+                     <div class="flex justify-between relative ">
+                        <!-- programming lang bubble -->
+                        <div class="absolute top-3 left-4">
+                            <img src="/public/images/programming_langs/androidAlt.png" class="rounded-full w-12 h-12 mx-auto">
+                        </div>
+                        <!-- title and sub title -->
+                        <div class=" text-center p-3  w-full">
+                            <h4 class="text-xl ">Craftify</h4>
+                            <span class="text-green-600 italic text-sm">Android</span>
+                        </div>
+                     </div>
+                    <!-- img -->
+                    <div class=" object-cover">
+                        <img src="/public/images/projectImgs/craftify.jpeg" class="w-full max-h-60">
                     </div>
-                    <h3 class="text-slate-200 text-4xl font-bold p-5">Card Header</h3>
-                    <p class="text-md italic p-5 ">Small description descripbnig what i am attempting to create in this card section. Also, make this smaller font </p>
-                    <!-- Maybe make this a link? Go to github? -->
-                    <a href="/" class="block ml-auto  hover:text-zinc-900 p-4 bg-gradient-to-r from-yellow-500 to-orange-500  rounded-xl" > Learn More</a>
-                 </article>
-                 <!-- Card 2 -->
-                 <article class="bg-stone-800 flex flex-col justify-center items-center border-2 p-6 border-stone-900 rounded-xl text-start w-[400px] shadow-x drop-shadow-xl hover:scale-110 transition-all ease-in-out">
-                    <div class=" w-[350px]">
-                        <!-- card image container added here -->
-                        <img class="w-full rounded-lg" src="/public/images/placeholder.jpeg">
+                    <div class="p-5 text-xs flex flex-col">
+                        <p class="py-5 h-20">
+                            RESTful Reddit clone using Firebase Database. Programmed in Java using Android Studio. 
+                        </p>
+                        <div class="flex py-4 text-lg justify-between">
+                            <div> 
+                                <a href="https://github.com/GeoCort/Group3Craftify/wiki/Design-Document" class="hover:text-green-600">Design Doc</a>
+                                <!-- <a href="#">Act 2</a> -->
+                            </div>
+                            <div class="text-3xl">
+                                <a href="https://github.com/GeoCort/Group3Craftify"><i class="fa-brands fa-github fa-xl hover:text-green-600"></i></a>
+                                <!-- <FontAwesomeIcon icon="fa-solid fa-copy" /> -->
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="text-slate-200 text-4xl font-bold p-5">Card Header</h3>
-                    <p class="text-sm  p-5 italic">Small description descripbnig what i am attempting to create in this card section. Also, make this smaller font </p>
-                    <!-- Maybe make this a link? Go to github? -->
-                    <a href="/" class="block ml-auto  hover:text-zinc-900 p-4 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-xl" > Learn More</a>
-                 </article>
-                  <!-- Card 3 -->
-                  <article class="bg-stone-800 flex flex-col justify-center items-center border-2 p-6 border-stone-800 rounded-xl text-start w-[400px] shadow-lg hover:scale-110 transition-all ease-in-out">
-                    <div class=" w-[350px]">
-                        <!-- card image container added here -->
-                        <img class="w-full rounded-lg" src="/public/images/placeholder.jpeg">
-                    </div>
-                    <h3 class="text-slate-200 text-4xl font-bold p-5">Card Header</h3>
-                    <p class="text-sm italic p-5">Small description descripbnig what i am attempting to create in this card section. Also, make this smaller font </p>
-                    <!-- Maybe make this a link? Go to github? -->
-                    <a href="/" class="block ml-auto  hover:text-zinc-900  p-4 bg-gradient-to-r from-yellow-500 to-orange-500  rounded-xl" > Learn More</a>
-                 </article>
+                </article>
              </div>
         </section>
         <!-- About Section -->
         <section class=" flex justify-center flex-col items-center p-10 min-h-screen">
             <h3 class="text-4xl">About Me </h3>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-5 justify-center place-items-center m-10">
-                <article class="md:border-r-2 p-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis officiis sapiente aliquid optio deleniti veniam aut cum eaque reiciendis iste impedit saepe molestiae quam nobis, quos quia dolorum. Consectetur.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas dolore et sapiente beatae, minus, doloremque tempore cum veniam optio dolores cumque dicta repellat, repudiandae nisi consectetur sit suscipit iure aliquam
+                <article class="md:border-r-2 p-4 ">
+                <p>
+                    I’m a hard-working Mexican student, dedicating countless hours to mastering web development. Balancing my studies with part-time jobs and family duties is challenging, but my passion for coding drives me forward. Every day, I dive into programming languages and development tools, knowing that each line of code brings me closer to my ultimate goal: graduating and launching a successful career in tech. The journey is tough, but the prospect of making a meaningful impact in the industry keeps me motivated
+                </p>
                 </article>
                 <div>
-                    <img src="/public/images/placeholder.jpeg">
+                    <img src="/public/images/cat_cute.png">
                 </div>
             </div>
         </section>
